@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.08.2
+%define		kdeappsver	24.08.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		ktnef
 Summary:	ktnef
 Name:		ka6-%{kaname}
-Version:	24.08.2
-Release:	2
+Version:	24.08.3
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	a2f71ffb258a92f55897ffad4f49428c
+# Source0-md5:	160837f846e4498ba378896a99bf527f
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
